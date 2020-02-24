@@ -32,3 +32,9 @@ totals_all<- rbind.data.frame (sum (garda[, grep("2003", names(garda), value=TRU
        sum (garda[, grep("2015", names(garda), value=TRUE)]))
 colnames (totals_all) <- "Total_All_Crimes"
 totals_all_year <- cbind.data.frame (Year, totals_all)
+
+# summarise data
+garda_smaller <- garda[, c(3, 6:172)] %>% group_by(Divisions) %>% summarise_all(funs(sum))
+garda_smaller <- mutate (garda_smaller, total= rowSums(garda_smaller[,c(2:168)]))
+garda_smaller_total <- garda_smaller[,c(1,169)]
+names(garda_smaller_total)[names(garda_smaller_total) == "Divisions"] <- "DIVISION"
