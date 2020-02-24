@@ -1,4 +1,4 @@
-# assumes the file with data is in your working directory
+# assumes the file with data is in the working directory
 
 library (readr)
 library (dplyr)
