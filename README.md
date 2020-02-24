@@ -6,9 +6,9 @@ The data set consists of crime statistics for 28 Garda Divsional Areas and 563 G
 
 In order to map the data onto a map of Garda Divisions the ESRI Shape (SHP) files for Garda Divsions at [Census Boundary Files](https://www.cso.ie/en/census/census2011boundaryfiles/) are required. 
 
-The first thing to do is to tidy up the data set so that it can be merged with the data in the Boundary Files using [this script](https://github.com/RQuinn78/Mapping-Census-Data/blob/master/Data%20Preparation.R). This also summarises the data so that we can graph it by Division
+The first thing to do is to tidy up the data set so that it can be merged with the data in the Boundary Files using [this script](https://github.com/RQuinn78/Mapping-Census-Data/blob/master/Data%20Preparation.R). This also summarises the data so that it can be graphed by Division. 
 
-Next the data in the Garda Divisions SHP file needs to be loaded and merged with the data set. 
+The data in the Garda Divisions SHP file needs to be [loaded and merged](https://github.com/RQuinn78/Mapping-Census-Data/blob/master/load_join_ShapeFiles%20.R) with the data set. 
 
 Then the data can be plotted
 
