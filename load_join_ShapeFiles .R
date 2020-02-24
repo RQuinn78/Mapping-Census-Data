@@ -1,4 +1,4 @@
-# assumes Garda Divsions SHP files are saved to a folder in your working directory
+# assumes Garda Divsions SHP files are saved to a folder in the working directory
 
 ireland <- rgdal::readOGR("Census2011_Garda_Divisions_Nov2013")
 library (sf)
