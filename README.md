@@ -12,4 +12,4 @@ The data in the Garda Divisions SHP file needs to be [loaded and merged](https:/
 
 Then the data can be plotted
 
-![]
+![](https://github.com/RQuinn78/Mapping-Census-Data/blob/master/Total_Crimes_Garda_Division.jpeg)
