@@ -4,7 +4,7 @@ This was a project for the [Sonrai R Users MeetUp](https://www.meetup.com/sonRai
 
 The data set consists of crime statistics for 28 Garda Divsional Areas and 563 Garda Stations in Ireland across 12 categories of offence. The process of creating a single map to summarise crimes by Divisional Area is fairly simple and is summarised below. 
 
-In order to map the data onto a map of Garda Divisions the ESRI Shape (SHP) files for Garda Divsions at [Census Boundary Files](https://www.cso.ie/en/census/census2011boundaryfiles/) are required. 
+In order to map the data onto a map of Garda Divisions the ESRI Shape (SHP) files for Garda Divsions at [Census Boundary Files](https://www.cso.ie/en/census/census2011boundaryfiles/) are required. Depending on the type of data being mapped then different boundary files are required e.g. boundary files for Irish counties for census data. 
 
 1. The first thing to do is to tidy up the data set so that it can be merged with the data in the Boundary Files using [this script](https://github.com/RQuinn78/Mapping-Census-Data/blob/master/Data%20Preparation.R). This also summarises the data so that it can be graphed by Division. 
 
