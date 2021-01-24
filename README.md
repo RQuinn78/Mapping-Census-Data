@@ -15,3 +15,5 @@ In order to map the data onto a map of Garda Divisions, the ESRI Shape (SHP) fil
 ![](https://github.com/RQuinn78/Mapping-Census-Data/blob/master/Total_Crimes_Garda_Division.jpeg)
 
 Other ways of mapping the data are also possible, e.g. notice the dataset contains geographic co-ordinates for each station in the country. These can be used to map the data at station level. 
+
+One can also create interactive maps in R very easily using the leaflet package. There is a handy [tutorial here](https://github.com/dlab-berkeley/Leaflet-Maps-in-R) which goes into lots of detail about the different options available to customise the map. 
